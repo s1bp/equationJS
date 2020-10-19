@@ -15,4 +15,3 @@ function landscapeWidth (viewportW) {
     let y = portraitW(viewportW) * 4 / 3;
     return y;
 }
-
