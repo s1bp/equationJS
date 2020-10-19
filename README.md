@@ -1,9 +1,18 @@
 # equationJS
 
-2x + y = Viewport
+Simple layout
 
-Where X and Y can be found as following:
+ ┌─────┐           ┌─────┐
+ │     │ ┌───────┐ │     │
+ │     │ │       │ │     │
+ │     │ └───────┘ │     │
+ └─────┘           └─────┘
+ 
+ 
+The calculations for this is using a width display, result will be constant:
 
-y = (-2x + Viewport)
+x = (1300 - y) / 2
 
-x = (-y + Viewport) / 2;
+and
+
+y = 4x / 3
